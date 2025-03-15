@@ -1,0 +1,40 @@
+Week-14.1 Typescript Part-1
+
+Title: Typescript
+
+link:
+https://projects.100xdevs.com/tracks/6SbPPXGkG8QKFOTW9BmL/ts-1
+
+
+
+// Comands 
+
+// index01
+
+// 1. Start a project
+// 1. npm install -g typescript : (globally install typescript in system) 
+// OR npm install typescript    : (install ts in you system)
+// 2. npx tsc --init            : (genrate a tsconfig.json for ts configuration)
+
+// 2. to comiple ts to js
+// 1. npx tsc -b  : (typescript build command  with ts.config build )
+// 2. tsc -b      : (if you globaly have installed the typescipt )
+// 3. npx tsc filename.ts : ( only gives filname.js )
+
+// 3. to Run everytime
+// 1. tsc filename.ts  : ( Updates the filename.js every time the comand is called) 
+// 2. node filename.js
+
+// 4. Standard practice to place ts file-> src and  js file->dist 
+// 1.
+// "rootDir": "./src",  :( ts  file )
+// "outDir": "./dist",  :( js file)
+// NOTE : only push TS files folder no need to push Js files folder 
+// 2. to build 
+// npx tsc  : ( in the main file not inside src / it will directly take the path form the root and put it to the dist)
+// 3. run 
+// node dist/filename.js
+
+
+
+// index02

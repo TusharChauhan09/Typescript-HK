@@ -1,0 +1,1 @@
+{"root":["./src/exclude.ts","./src/partial.ts","./src/pick.ts","./src/readonly.ts","./src/records-maps.ts","./src/zod.ts","./src/index01.ts"],"version":"5.8.2"}
